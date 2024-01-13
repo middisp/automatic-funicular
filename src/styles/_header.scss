@@ -1,0 +1,30 @@
+header {
+  .search-wrap {
+    border-block-end: solid 1px rgb(var(--mono-color-2));
+  }
+  
+  img {
+    max-width: 200px;
+    width: 100%;
+  }
+  
+  .search, .actions > * {
+    padding: 1rem;
+  }
+  
+  .search {
+    border-inline: solid 1px rgb(var(--mono-color-2));
+  }
+  
+  .actions {
+  
+    .learn {
+      border-bottom: solid 2px rgb(var(--accent-color));
+    }
+  
+    .donate {
+      background-color: rgb(var(--danger));
+      color: rgb(var(--mono-color-1));
+    }
+  }
+}
