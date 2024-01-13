@@ -9,7 +9,7 @@ header {
   }
   
   .search, .actions > * {
-    padding: 1rem;
+    padding: var(--padding-1);
   }
   
   .search {
@@ -23,7 +23,7 @@ header {
     }
   
     .donate {
-      background-color: rgb(var(--danger));
+      background-color: rgb(var(--tertiary-color));
       color: rgb(var(--mono-color-1));
     }
   }

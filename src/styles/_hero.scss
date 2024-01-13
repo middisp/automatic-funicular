@@ -1,0 +1,34 @@
+.hero {
+  gap: 2rem;
+  justify-content: center;
+  padding-inline: .5rem;
+  padding-block: 1rem;
+
+  h1, p, a {
+    margin: 0;
+  }
+
+  h1 {
+    background-color: rgb(var(--secondary-color));
+    padding: var(--padding-1);
+    color: rgb(var(--mono-color-1));
+    width: fit-content;
+  }
+
+  p {
+    background-color: rgb(var(--mono-color-1));
+    color: rgb(var(--secondary-color));
+    padding: var(--padding-1);
+  }
+}
+
+@media (min-width: 750px) {
+  .hero {
+    padding-block: 1rem;
+    padding-inline-start: 3rem;
+
+    p {
+      max-width: 50%;
+    }
+  }
+}

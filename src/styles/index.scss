@@ -1,7 +1,10 @@
 @import './variables';
+@import './button';
 @import './layout';
 @import './header';
 @import './navigation';
+@import './hero';
+@import './sidekick';
 
 html {
   font-size: 62.5%;
@@ -15,4 +18,12 @@ body {
 
 main, header {
   font-size: var(--base-font-size);
+}
+
+a {
+  text-decoration: none;
+
+  &.router-link-active {
+    text-decoration: underline;
+  }
 }

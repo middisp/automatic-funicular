@@ -1,11 +1,15 @@
 :root {
   --primary-color: 0 0 0;
+  --secondary-color: 73 124 143;
+  --tertiary-color: 188 51 68;
   --accent-color: 71 128 119;
   --mono-color-0: 0 0 0;
   --mono-color-1: 255 255 255;
   --mono-color-2: 205 205 205;
 
-  --danger: 188 51 68; 
+  --base-font-size: 1.6rem;
+  --section-padding: 2rem;
 
-  --base-font-size: 1.6rem
+  --padding-1: 1rem;
+  --padding-2: 2rem;
 }

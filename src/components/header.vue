@@ -8,7 +8,7 @@
       </div>
     </div>
     <div class="navigation-wrap">
-      <RouterLink :to="{name: 'Home'}"><img src="../assets/images/logo.png" alt="Good things toundation"></RouterLink>
+      <img src="../assets/images/logo.png" alt="Good things toundation">
       <nav>
           <RouterLink v-for="(item, index) in getNav" :to="item.path" :key="index">{{ item.name }}</RouterLink>
       </nav>

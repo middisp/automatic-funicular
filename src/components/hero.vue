@@ -1,5 +1,5 @@
 <template>
-  <section class="grid">
+  <section class="hero flex flex-col" style="background-image: url('https://picsum.photos/1200/370')">
     <h1>{{ title }}</h1>
     <p v-if="intro">{{ intro }}</p>
     <RouterLink v-if="link.to" class="btn" :to="link.to">{{ link.text }}</RouterLink>
@@ -21,10 +21,3 @@ export default {
   }
 }
 </script>
-
-<style>
-section {
-  padding: 3rem;
-  gap: 2rem;
-}
-</style>
