@@ -1,13 +1,18 @@
 <template>
-  <section class="contact">
+  <section class="contact-section">
     <h3>How can we help you?</h3>
     <p>You might not have heard of us, but we're the people behind impactful programmes.</p>
+    <contactForm buttonText="Start now" :submitAction="() => console.log('submit')" />
   </section>
 </template>
 
-<style lang="scss">
-.contact {
-  background-color: rgb(var(--mono-color-2));
-  padding: var(--padding-2);
+<script>
+import contactForm from './contactForm.vue'
+
+export default {
+  name: 'ContactSection',
+  components: {
+    contactForm
+  }
 }
-</style>
+</script>

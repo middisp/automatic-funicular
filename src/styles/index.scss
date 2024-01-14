@@ -5,6 +5,8 @@
 @import './navigation';
 @import './hero';
 @import './sidekick';
+@import './contact-section';
+@import './contact-form';
 
 html {
   font-size: 62.5%;
@@ -12,6 +14,7 @@ html {
 
 body {
   color: rgb(var(--primary-color));
+  font-family: var(--font-family);
   font-size: 1rem;
   margin: 0;
 }
@@ -26,4 +29,8 @@ a {
   &.router-link-active {
     text-decoration: underline;
   }
+}
+
+h1, h2, h3, p, a {
+  margin: 0;
 }
