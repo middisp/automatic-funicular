@@ -8,7 +8,7 @@ export const useNavigationStore = defineStore('navigation', {
         name: 'Home'
       },
       {
-        path: 'about',
+        path: '/about',
         name: 'What we do'
       },
       {

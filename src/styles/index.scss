@@ -7,13 +7,19 @@
 @import './sidekick';
 @import './contact-section';
 @import './contact-form';
+@import './what-we-do';
+@import './card';
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 
 html {
   font-size: 62.5%;
 }
 
 body {
-  color: rgb(var(--primary-color));
+  color: rgb(var(--mono-color-0));
   font-family: var(--font-family);
   font-size: 1rem;
   margin: 0;
@@ -31,6 +37,7 @@ a {
   }
 }
 
-h1, h2, h3, p, a {
+/* Mini reset */
+h1, h2, h3, h4, p, a {
   margin: 0;
 }

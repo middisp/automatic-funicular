@@ -20,4 +20,8 @@
     border-color: rgb(var(--tertiary-color));
     color: rgb(var(--mono-color-1));
   }
+
+  &-border {
+    border-color: rgb(var(--mono-color-3));
+  }
 }
